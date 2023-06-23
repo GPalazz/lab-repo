@@ -15,6 +15,3 @@ jobs:
 
       - name: Display a message
         run: echo "Hello, GitHub Actions!
-
-      - name: cat swapi.html
-        run: cat swapi.html
