@@ -1,4 +1,4 @@
-name: First Workflow Test
+name: First Workflow
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Display a message
-        run: echo "Hello, GitHub Actions!
+        run: echo "Hello, GitHub Actions!"
