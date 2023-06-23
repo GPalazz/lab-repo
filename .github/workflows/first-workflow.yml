@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        -name: cat swapi.html
-
       - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Display a message
         run: echo "Hello, GitHub Actions!
+
+      - name: cat swapi.html
+        run: cat swapi.html
